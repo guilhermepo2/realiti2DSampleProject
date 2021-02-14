@@ -1,4 +1,4 @@
-workspace "JumpV.Main"
+workspace "SampleProject"
     architecture "x64"
     configurations
     {
@@ -6,12 +6,12 @@ workspace "JumpV.Main"
         "Release",
         "Dist"
     }
-    startproject "JumpV.Main"
+    startproject "SampleProject"
 
 include "realiti2D/r2dstandalone.lua"
 
-project "JumpV.Main"
-    location "JumpV.Main"
+project "SampleProject"
+    location "SampleProject"
     kind "ConsoleApp"
     language "C++"
 
